@@ -88,8 +88,60 @@ body {
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 575.98px) {
+  #header h1 {
+    font-size: 1.2rem;
+  }
+
   #user-input {
+    max-width: 20rem;
+  }
+
+  #user-input label {
+    font-size: 0.70rem;
+  }
+
+  #user-input input {
+    padding: 0.3rem;
+    font-size: 0.85rem;
+  }
+
+  .center {
+    font-size: 0.75rem;
+  }
+
+  #result {
+    max-width: 30rem;
+    margin: 1.2rem auto;
+    border-spacing: 0.7rem;
+  }
+
+  #result tbody {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 375px){
+  #user-input {
+    max-width: 17rem;
+  }
+}
+
+
+@media (max-width: 320px){
+  #header h1 {
+    font-size: 1rem;
+  }
+
+  #user-input {
+    max-width: 15rem;
+  }
+
+  #user-input label {
+    font-size: 0.60rem;
+  }
+
+  #result {
     max-width: 25rem;
   }
 }

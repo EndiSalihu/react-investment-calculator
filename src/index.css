@@ -87,3 +87,9 @@ body {
 .center {
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  #user-input {
+    max-width: 25rem;
+  }
+}
